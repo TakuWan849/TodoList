@@ -13,6 +13,8 @@
 		F867A008255EE84200443246 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F867A007255EE84200443246 /* Assets.xcassets */; };
 		F867A00B255EE84200443246 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F867A009255EE84200443246 /* LaunchScreen.storyboard */; };
 		F867A01F255EEAA300443246 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F867A01E255EEAA300443246 /* HomeViewController.swift */; };
+		F867A022255EF42B00443246 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F867A021255EF42B00443246 /* HeaderView.swift */; };
+		F867A025255EF53F00443246 /* HeaderShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F867A024255EF53F00443246 /* HeaderShadowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F867A00A255EE84200443246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F867A00C255EE84200443246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F867A01E255EEAA300443246 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F867A021255EF42B00443246 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		F867A024255EF53F00443246 /* HeaderShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderShadowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 			children = (
 				F867A01C255EEA5600443246 /* stroyBoards */,
 				F867A01B255EEA4D00443246 /* cells */,
+				F867A021255EF42B00443246 /* HeaderView.swift */,
+				F867A024255EF53F00443246 /* HeaderShadowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -188,6 +194,8 @@
 				F8679FFF255EE84100443246 /* AppDelegate.swift in Sources */,
 				F867A001255EE84100443246 /* SceneDelegate.swift in Sources */,
 				F867A01F255EEAA300443246 /* HomeViewController.swift in Sources */,
+				F867A022255EF42B00443246 /* HeaderView.swift in Sources */,
+				F867A025255EF53F00443246 /* HeaderShadowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
